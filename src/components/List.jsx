@@ -1,6 +1,7 @@
 import React from 'react'
 // import Card from "./components/Card.jsx";
 import "./List.css"
+import person from '../assets/person.jpg'
 
 const List = () => {
   const candidateNames = [
@@ -18,7 +19,7 @@ const List = () => {
   const eachCanidate = candidateNames.map((candid) => {
     return (
       <div className='one-person'>
-        <img className="img-person" src="../src/assets/person.jpg" alt="" />
+        <img className="img-person" src={person} alt="" />
         <p>{candid}</p>
       </div>
     )
