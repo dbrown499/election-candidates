@@ -18,7 +18,7 @@ const List = () => {
   const eachCanidate = candidateNames.map((candid) => {
     return (
       <div className='one-person'>
-        <img className="img-person" src="../../src/assets/person.jpg" alt="" />
+        <img className="img-person" src="../src/assets/person.jpg" alt="" />
         <p>{candid}</p>
       </div>
     )
