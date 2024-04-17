@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import List from './List';
+// import candidateNames from './components/List.jsx'
 
 const Card = () => {
+  
   return (
-    <div>Card</div>
+    
+      List
   )
 }
 

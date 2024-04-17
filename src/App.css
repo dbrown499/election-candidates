@@ -1,0 +1,12 @@
+section {
+    text-align: center;
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.all-cards {
+    margin: 10px;
+    text-align: center;
+}
